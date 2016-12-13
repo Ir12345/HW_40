@@ -2,7 +2,7 @@ package core;
 
 public class PrimeNumber {
 	public Boolean validate(final Integer primeNumber) {
-		for (int i = 2; i < (primeNumber / 2); i++) {
+		for (int i = 2; i < (primeNumber); i++) {
 			if (primeNumber % i == 0) {
 				return false;
 			}
